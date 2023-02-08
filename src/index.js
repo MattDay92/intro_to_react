@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Lines 1 and 2 have to be there  - like import flask
+import App from './App';  // this can change
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// places items inside of the div with id root
+
+// REACT COMPONENT
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <App />  //this is a variable - renders the WHOLE APP.JS
+            //self closing tag
+
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
